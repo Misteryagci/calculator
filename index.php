@@ -24,6 +24,9 @@
 			}
 			echo '</title>';
 		?>
+		<!-- JQuery ve external JS dosyalarini ekleiyoruz-->
+		<script src="../jquery-2.1.4.min.js"></script>
+		<script src="main.js"></script>
 </head>
 <body>
 	<!-- Hesap makinasinin ekranini olusturan paragraf JS ile ayarlanicak-->
