@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
 		<meta charset="UTF-8">
 		<!-- Sekme yerinde cikan isim browserin dilinde cikmali 
 			 turkce,ingilizce,fransizca olarak simdilik.
@@ -25,19 +26,20 @@
 			echo '</title>';
 		?>
 		<!-- JQuery ve external JS dosyalarini ekleiyoruz-->
-		<script src="../jquery-2.1.4.min.js"></script>
+		<script src="jquery-2.1.4.min.js"></script>
 		<script src="main.js"></script>
 </head>
 <body>
-	<!-- Hesap makinasinin ekranini olusturan paragraf JS ile ayarlanicak-->
-	<p id='number_display' class='number_display'>Je suis number_display</p>
-	<?php
-		//Sayi dugmelerinin eklenmesi icin kullanilan fonksiyon
-		generate_number_buttons(10,5);
-	?>
-	<br>
-	<?php
-		generate_operators();
-	?>
+	<div class="container">
+		<!-- Hesap makinasinin ekranini olusturan paragraf JS ile ayarlanicak-->
+		<p id='number_display' class='number_display'>0</p>
+		<?php
+			//Sayi dugmelerinin eklenmesi icin kullanilan fonksiyon
+			generate_number_buttons(10,4);
+		?>
+		<?php
+			generate_operators();
+		?>
+	</div>
 </body>
 </html>

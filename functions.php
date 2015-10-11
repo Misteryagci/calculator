@@ -13,15 +13,18 @@
 				echo '<br>';
 			}
 		}
+		echo '<button id="dot_button" class="number_button" onclick="number_click(\'.\')">.</button>';
+
 	}
 	//Islemlerin dugmelerini yaratan fonksiyon
 	function generate_operators ()
 	{
-		echo '<button id="plus_button" class="operator_buttons" onclick="operator_click(\'+\')">+</button>';
-		echo '<button id="minus_button" class="operator_buttons" onclick="operator_click(\'-\')">-</button>';
-		echo '<button id="mult_button" class="operator_buttons" onclick="operator_click(\'x\')">x</button>';
-		echo '<button id="div_button" class="operator_buttons" onclick="operator_click(\'/\')">/</button>';
-		echo '<button id="sqrt_button" class="operator_buttons" onclick="operator_click(\'sqrt\')">√</button>';
-		echo '<button id="equals_button" class="operator_buttons" onclick="operator_click(\'=\')">=</button>';
+		echo '<button id="plus_button" class="operator_button" onclick="operator_click(\'+\')">+</button>';
+		echo '<button id="minus_button" class="operator_button" onclick="operator_click(\'-\')">-</button>';
+		echo '<button id="mult_button" class="operator_button" onclick="operator_click(\'x\')">x</button>';
+		echo '<button id="div_button" class="operator_button" onclick="operator_click(\'/\')">/</button>';
+		echo '<br><button id="sqrt_button" class="operator_button" onclick="operator_click(\'sqrt\')">√</button>';
+		echo '<button id="equals_button" class="operator_button" onclick="operator_click(\'=\')">=</button>';
+		echo '<br><button id="clear_button" class="operator_button" onclick="operator_click(\'C\')">C</button>';
 	}
 ?>

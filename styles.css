@@ -1,0 +1,53 @@
+@font-face {
+	font-family: Engraversbold;
+	src: url("ufonts.com_engravers-bold.ttf");
+}
+
+.container {
+	margin-top: 10%;
+	width:25%;
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF;
+	text-align: center;	
+}
+
+p,button {
+	font-family: Engraversbold;
+	font-size: 23px;
+}
+
+button {
+	padding : 15px;
+}
+
+.number_button {
+	border : 2px solid #772953;
+}
+
+#button_1, #button_0, #dot_button {
+	width: 33.333333%;	
+}
+
+.operator_button {
+	border : 2px solid  #dd4814;
+}
+
+.operator_button:hover {
+	border :2px solid #772953;
+} 
+.number_button:hover {
+	border : 2px solid #dd4814;
+}
+
+button {
+	background: #FFFFFF;
+	width: 25%;
+}
+#sqrt_button, #equals_button {
+	width: 50%;
+}
+
+#clear_button {
+	width: 100%;
+}
