@@ -93,7 +93,6 @@ function operator_click (op)
 		calcul();
 		if (res !== 0)
 		{
-			alert(res);
 			op1 = res;
 			turn = 2;
 		}
